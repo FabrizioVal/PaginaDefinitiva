@@ -7,7 +7,7 @@ export function DownloadButton() {
       <div className="flex items-center gap-4">
         <Button className="flex items-center gap-3">
           <IoMdDownload className="h-5 w-5" />
-          Download Now
+          Descargar ahora
         </Button>
       </div>
     );
