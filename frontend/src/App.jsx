@@ -3,11 +3,12 @@ import React from 'react';
 import Auth from './pages/Auth';
 import Home from './pages/Home';
 
-import Introduction from './components/introduction';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Slider from './components/slider';
 import { DownloadButton } from './components/downloadbutton';
+import Introduction from './components/introduction';
+import Explanation from './components/explanation';
 
 import './index.css';
 
@@ -27,6 +28,7 @@ function App() {
         </div>
       </div>
       <Introduction />
+      <Explanation />
     </div>
   );
 }
