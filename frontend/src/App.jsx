@@ -9,6 +9,7 @@ import Slider from './components/slider';
 import { DownloadButton } from './components/downloadbutton';
 import Introduction from './components/introduction';
 import Explanation from './components/explanation';
+import Aboutus from './components/aboutus';
 
 import './index.css';
 
@@ -29,6 +30,7 @@ function App() {
       </div>
       <Introduction />
       <Explanation />
+      <Aboutus />
     </div>
   );
 }

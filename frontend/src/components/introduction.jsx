@@ -10,9 +10,9 @@ const Introduction = () => {
 
   return (
     <div ref={ref} className="flex items-center justify-center mt-20 bg-white">
-      <div className={`max-w-screen-lg mx-auto my-5 flex fade-in ${inView ? 'visible' : ''}`}>
+      <div className={`max-w-screen-lg mx-auto my-48 flex fade-in ${inView ? 'visible' : ''}`}>
         {/* Image on the left */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 ">
           <img
             src={excel}
             alt="Introduction Image"
