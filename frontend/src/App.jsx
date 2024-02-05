@@ -10,6 +10,7 @@ import { DownloadButton } from './components/downloadbutton';
 import Introduction from './components/introduction';
 import Explanation from './components/explanation';
 import Aboutus from './components/aboutus';
+import Review from './components/review';
 
 import './index.css';
 
@@ -31,6 +32,7 @@ function App() {
       <Introduction />
       <Explanation />
       <Aboutus />
+      <Review />
     </div>
   );
 }
