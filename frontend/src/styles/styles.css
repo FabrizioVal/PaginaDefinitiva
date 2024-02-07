@@ -19,3 +19,8 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+  .custom-align-top {
+    vertical-align: top;
+  }
+  

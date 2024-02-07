@@ -16,7 +16,7 @@ import {
 
 const Aboutus = () => {
   return (
-    <div className='my-14 text-center border-4 rounded-xl border-black p-6 mx-20'>
+    <div className='my-20 text-center border-4 rounded-xl border-black p-6 mx-20'>
       <h2 className="text-4xl font-bold mb-6">Conoce al equipo</h2>
 
       <div className='flex flex-wrap justify-center gap-4'>

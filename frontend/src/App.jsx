@@ -11,6 +11,7 @@ import Introduction from './components/introduction';
 import Explanation from './components/explanation';
 import Aboutus from './components/aboutus';
 import Review from './components/review';
+import Footer from './components/footer';
 
 import './index.css';
 
@@ -33,6 +34,7 @@ function App() {
       <Explanation />
       <Aboutus />
       <Review />
+      <Footer />
     </div>
   );
 }
