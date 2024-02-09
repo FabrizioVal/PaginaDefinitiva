@@ -4,13 +4,13 @@ import {ReactTyped} from 'react-typed';
 const Hero = () => {
     
   return (
-    <div className='text-white text-left ml-[20px]'>
+    <div style={{ fontFamily: 'Manrope, sans-serif' }} className='text-white text-left ml-[20px]'>
         <div className='max-w-[800px] mt-[-96px] w-full h-screen text-center flex flex-col justify-center'>
-        <p className='text-[#00df9a] font-bold text-lg md:text-xl lg:text-xl p-2'>
+        <p className='text-[#9951ff] font-bold text-lg md:text-xl lg:text-xl p-2'>
           Pasaje de datos a tu gusto</p>
         <h1 className='md:text-6xl sm:text-6xl text-4xl font-bold md:py-1'>
              Descargar <span style={{
-            backgroundImage: 'linear-gradient(180deg, #65f7ca 40%, #6075f7)',
+            backgroundImage: 'linear-gradient(180deg, #9951ff 30%, #CFBDFF)',
             WebkitBackgroundClip: 'text',
             color: 'transparent',
              }}>Analytix</span>

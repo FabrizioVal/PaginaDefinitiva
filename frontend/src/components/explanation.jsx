@@ -15,7 +15,7 @@ import {
 const Explanation = () => {
     return (
       
-        <div className='font-bold text-4xl bg-white text-center mb-10 pb-32'> ¿Como funciona Analytix? 
+        <div style={{ fontFamily: 'Manrope, sans-serif' }} className='font-bold text-4xl bg-white text-center mb-10 pb-32'> ¿Como funciona Analytix? 
       <div className="mt-12 flex items-center justify-center bg-white">
 
        
@@ -37,12 +37,14 @@ const Explanation = () => {
                 <MdDocumentScanner className="mb-4 h-12 w-12 text-gray-900" />
               </motion.div>
 
-              <Typography variant="h5" color="blue-gray" className="mb-2">
+              <Typography variant="h5" color="blue-gray" className="mb-2 manrope-font">
                 Paso 1
               </Typography>
 
-              <Typography>
+              <Typography className="manrope-font">
+
                 explicacion del proceso de meter datos para que sean procesados
+              
               </Typography>
             </CardBody>
             <CardFooter className="pt-0">
@@ -83,12 +85,14 @@ const Explanation = () => {
                 <FaDigitalTachograph className="mb-4 h-12 w-12 text-gray-900" />
               </motion.div>
 
-              <Typography variant="h5" color="blue-gray" className="mb-2">
-                Paso 1
+              <Typography variant="h5" color="blue-gray" className="mb-2 manrope-font">
+                Paso 2
               </Typography>
 
-              <Typography>
-                explicacion del proceso de meter datos para que sean procesados
+              <Typography className="manrope-font">
+                
+                explicacion de la edicion de graficos a tu gusto
+              
               </Typography>
             </CardBody>
             <CardFooter className="pt-0">
@@ -129,12 +133,14 @@ const Explanation = () => {
                 <HiDocumentText className="mb-4 h-12 w-12 text-gray-900" />
               </motion.div>
 
-              <Typography variant="h5" color="blue-gray" className="mb-2">
-                Paso 1
+              <Typography variant="h5" color="blue-gray" className="mb-2 manrope-font">
+                Paso 3
               </Typography>
 
-              <Typography>
-                explicacion del proceso de meter datos para que sean procesados
+              <Typography className="manrope-font">
+
+                explicacion de exportancion pdf
+              
               </Typography>
             </CardBody>
             <CardFooter className="pt-0">

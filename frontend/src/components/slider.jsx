@@ -6,7 +6,7 @@ import stonks3 from '../assets/stonks3.png'
 
 function Slider () {
   return (
-    <div className="flex justify-center items-center mt-[40px]">
+    <div className="flex justify-center items-center mt-[50px]">
     <Carousel className="rounded-xl w-2/3" autoplay={{ loop: true }} loop={true} autoplayDelay={4000}>
       <img
         src={stonks1}

@@ -12,13 +12,13 @@ import {
 
 const Review = () => {
   return (
-    <div className=''>
+    <div style={{ fontFamily: 'Manrope, sans-serif' }}>
         <Card className='mx-80 my-10 bg-white items-center' color="transparent" shadow={false}>
-      <Typography className='mt-6' variant="h4" color="blue-gray">
+      <Typography className='mt-6 manrope-font' variant="h4" color="blue-gray">
         Comparte tu opinion con nosotros
       </Typography>
 
-      <Typography color="gray" className="mt-6 font-normal">
+      <Typography color="gray" className="mt-6 font-normal manrope-font">
         Cuentanos cual fue tu experiencia. ¡Nos ayuda a seguir mejorando!
       </Typography>
 
@@ -26,12 +26,12 @@ const Review = () => {
         <div className="mb-1 flex flex-col gap-6 items-center">
           <div className="flex flex-row gap-4">
             <div className="flex-1">
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                Your Name
+              <Typography variant="h6" color="blue-gray" className="mb-2 manrope-font">
+                Tu nombre
               </Typography>
               <Input
                 size="lg"
-                placeholder="Name"
+                placeholder="Nombre"
                 className=" border-separate border-t !border-t-blue-gray-200 focus:!border-purple-500"
                 labelProps={{
                   className: "before:content-none after:content-none",
@@ -39,13 +39,13 @@ const Review = () => {
               />
             </div>
             <div className="flex-1">
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                Your Email
+              <Typography variant="h6" color="blue-gray" className="mb-2 manrope-font">
+                Tu email
               </Typography>
               <Input
                 color='deep-purple'
                 size="lg"
-                placeholder="name@mail.com"
+                placeholder="Email"
                 className=" border-separate border-t !border-t-blue-gray-200 focus:!border-purple-500"
                 labelProps={{
                   className: "before:content-none after:content-none",
@@ -53,13 +53,13 @@ const Review = () => {
               />
             </div>
           </div>
-          <Typography variant="h6" color="blue-gray" className="-mb-3">
-            Review
+          <Typography variant="h6" color="blue-gray" className="-mb-3 manrope-font">
+            Reseña
           </Typography>
           <div className="relative">
           
           <div className="relative w-[32rem]">
-      <Textarea variant="static" placeholder="Your Comment" rows={8} color='purple'/>
+      <Textarea variant="static" placeholder="Reseña" rows={8} color='purple'/>
       <div className="flex w-full justify-between py-1.5">
 
             <path
@@ -69,7 +69,7 @@ const Review = () => {
             />
           
         <div className="flex gap-2">
-          <Button color='deep-purple' size="sm" className="rounded-md">
+          <Button color='deep-purple' size="sm" className="rounded-md manrope-font">
             Subir reseña
           </Button>
         </div>

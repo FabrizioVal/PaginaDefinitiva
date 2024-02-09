@@ -3,7 +3,7 @@ import React from 'react';
 import Auth from './pages/Auth';
 import Home from './pages/Home';
 
-import Navbar from './components/navbar';
+import NavbarSimple from './components/navbar';
 import Hero from './components/hero';
 import Slider from './components/slider';
 import { DownloadButton } from './components/downloadbutton';
@@ -14,11 +14,12 @@ import Review from './components/review';
 import Footer from './components/footer';
 
 import './index.css';
+import './fonts/fonts.css'
 
 function App() {
   return (
     <div className="wrapper">
-      <Navbar />
+      <NavbarSimple />
       <div className="flex section">
         <div className="w-1/2">
           <Hero />

@@ -16,8 +16,8 @@ import {
 
 const Aboutus = () => {
   return (
-    <div className='my-20 text-center border-4 rounded-xl border-black p-6 mx-20'>
-      <h2 className="text-4xl font-bold mb-6">Conoce al equipo</h2>
+    <div style={{ fontFamily: 'Manrope, sans-serif' }} className='my-20 text-center border-4 rounded-xl border-[#9951ff] p-6 mx-20'>
+      <h2 className="text-white text-4xl font-bold mb-6">Conoce al equipo</h2>
 
       <div className='flex flex-wrap justify-center gap-4'>
         
@@ -32,10 +32,10 @@ const Aboutus = () => {
             <img src={gato1} alt="profile-picture-1" />
           </CardHeader>
           <CardBody className="text-center h-28">
-            <Typography variant="h4" color="blue-gray" className="mb-2">
+            <Typography variant="h4" color="blue-gray" className="mb-2 manrope-font">
               Natalie Paisley
             </Typography>
-            <Typography color="blue-gray" className="font-medium" textGradient>
+            <Typography color="blue-gray" className="manrope-font font-bold" textGradient>
               CEO / Co-Founder
             </Typography>
           </CardBody>
@@ -65,10 +65,10 @@ const Aboutus = () => {
             <img src={gato2} alt="profile-picture-1" />
           </CardHeader>
           <CardBody className="text-center h-28">
-            <Typography variant="h4" color="blue-gray" className="mb-2">
+            <Typography variant="h4" color="blue-gray" className="mb-2 manrope-font">
               Miautalia
             </Typography>
-            <Typography color="blue-gray" className="font-medium" textGradient>
+            <Typography color="blue-gray" className=" manrope-font font-bold" textGradient>
               Cat food producer
             </Typography>
           </CardBody>
