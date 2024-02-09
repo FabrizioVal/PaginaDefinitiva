@@ -1,5 +1,3 @@
-# Ignore JSON files
-*.json
 # Ignore database data
 backend/config/config.js
 # Ignore dist folder
